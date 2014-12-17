@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Easy Drag Demo</title>		
+		
+		<link rel="stylesheet" type="text/css" href="/css/result-light.css">
+		
+		<style type="text/css">
+			.container {
+				height: 250px;
+				width: 250px;
+				border: 2px solid black;
+				position: relative;
+				display: block;
+			}
+			
+			.redBlock {
+				height: 25px;
+				width: 25px;
+				background-color: #FF0000;
+				position: relative;
+				display: block;
+				cursor: move;
+			}
+		</style>
+	</head>
+	<body>	
+		<div class="container">
+			<div class="draggableWid dragAnchor redBlock"></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="EasyDrag.js"></script>
+	<script type="text/javascript">
+		EasyDrag.initDrag(); //Using default class names.
+	</script>	
+</html>
