@@ -1,4 +1,4 @@
 EasyDrag.js
 ===========
 
-Super simple JavaScript library to enable dragging of elements.
+Super simple cross browser JavaScript library to enable dragging of elements.
