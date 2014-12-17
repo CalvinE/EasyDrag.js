@@ -1,4 +1,4 @@
-var EasyDrag = function(){
+var EasyDrag = function(){ 
 		
 		var self = this,
 		
